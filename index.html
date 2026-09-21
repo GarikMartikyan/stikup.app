@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Garik Martikyan — Android apps</title>
+  <meta name="description" content="Garik Martikyan builds native Android apps in Kotlin and Jetpack Compose.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232F6BFF'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='16' font-weight='700' fill='white' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #FAFAF8;
+      --ink: #17191C;
+      --muted: #5E636B;
+      --rule: #E4E5E2;
+      --accent: #2F6BFF;
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111315;
+        --ink: #ECEDEE;
+        --muted: #9A9FA6;
+        --rule: #26292D;
+        --accent: #6B95FF;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main, footer {
+      width: 100%;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    main { flex: 1; padding-top: 18vh; padding-bottom: 64px; }
+    h1 {
+      font-size: clamp(40px, 8vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin: 0 0 12px;
+      font-weight: 700;
+    }
+    .tagline { font-size: 20px; color: var(--muted); margin: 0 0 48px; }
+    p { margin: 0 0 20px; max-width: 34em; }
+    h2 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 48px 0 12px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      border-top: 1px solid var(--rule);
+      padding-top: 20px;
+      padding-bottom: 32px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer p { margin: 0 0 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Garik Martikyan</h1>
+    <p class="tagline">Android apps, built for everyday use.</p>
+
+    <p>I build native Android apps in Kotlin and Jetpack Compose. Each one starts as something I need myself. When an app proves useful day to day, I polish it and publish it so other people can use it too.</p>
+    <p>My apps are made to be small, quiet and respectful: no unnecessary permissions, and your data stays on your device.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:contact@stikup.app">contact@stikup.app</a></p>
+  </main>
+
+  <footer>
+    <p>MARTIKYAN GARIK PERCH, IE — Individual Entrepreneur registered in the Republic of Armenia.</p>
+    <p>Yerevan, Armenia</p>
+  </footer>
+</body>
+</html>
